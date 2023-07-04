@@ -11,7 +11,7 @@ java -jar zone.jar \
     --auth-port=8081 \
     --auth-trust-store-location certificates/corda-ssl-trust-store.jks \
     --auth-trust-store-password trustpass \
-    --auth-issuer test \
+    --auth-issuer "http://test" \
     --auth-leeway 5 \
     --tls=true \
     --tls-keystore=certificates/corda-ssl-identity-manager-keys.jks \
